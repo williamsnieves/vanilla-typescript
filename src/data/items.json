@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "itemId": 1,
+      "title": "Charvel Pro-Mod DK24 HSS 2PT CM SWT",
+      "category": "guitars",
+      "brand": "Charvel",
+      "price": 959,
+      "color": "blue"
+    },
+    {
+      "itemId": 2,
+      "title": "Roland TD-07DMK ",
+      "category": "drums",
+      "brand": "Roland",
+      "price": 675,
+      "color": "black"
+    },
+    {
+      "itemId": 3,
+      "title": "Tama CL52KRS-BAB Superstar Classic ",
+      "category": "drums",
+      "brand": "Tama",
+      "price": 685,
+      "color": "blue"
+    },
+    {
+      "itemId": 4,
+      "title": "Ibanez AZ224BCG-DET",
+      "category": "guitars",
+      "brand": "Ibanez",
+      "price": 1255,
+      "color": "brown"
+    },
+    {
+      "itemId": 5,
+      "title": "Pearl EXX705NBR-C700 Arctic Sparkle",
+      "category": "drums",
+      "brand": "Pearl",
+      "price": 779,
+      "color": "white"
+    },
+    {
+      "itemId": 6,
+      "title": "Yamaha TRB1006J BLK",
+      "category": "bass",
+      "brand": "Yamaha",
+      "price": 1199,
+      "color": "black"
+    },
+    {
+      "itemId": 7,
+      "title": "Cort CEC3 NS",
+      "category": "guitars",
+      "brand": "Cort",
+      "price": 299,
+      "color": "blue"
+    },
+    {
+      "itemId": 8,
+      "title": "Korg B2SP BK",
+      "category": "keyboards",
+      "brand": "Korg",
+      "price": 539,
+      "color": "black"
+    },
+    {
+      "itemId": 9,
+      "title": "Mesa/Boogie Express 5:50 Plus Combo 1x12",
+      "category": "aplifiers",
+      "brand": "Mesa",
+      "price": 2080,
+      "color": "black"
+    },
+    {
+      "itemId": 10,
+      "title": "Focusrite Scarlett Solo 3rd Gen",
+      "category": "recording",
+      "brand": "Focusrite",
+      "price": 105,
+      "color": "red"
+    }
+  ]
+}
