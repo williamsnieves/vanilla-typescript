@@ -16,6 +16,10 @@ class ListItemBuilder {
   addButton(element: HTMLButtonElement): void {
     this.item.appendChild(element);
   }
+
+  addClass(classEl: any): void {
+    this.item.classList.add(...classEl);
+  }
 }
 
 export default ListItemBuilder;

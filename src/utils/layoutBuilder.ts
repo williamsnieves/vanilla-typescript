@@ -5,7 +5,7 @@ class LayoutBuilder {
   }
 
   addClassToLayout(arg: string): void {
-    console.log("arg---", arg);
+    this.layout.classList.add(arg);
   }
 
   renderContent(element: HTMLUListElement): void {
@@ -13,8 +13,14 @@ class LayoutBuilder {
   }
 
   renderLayout(): void {
-    const body: HTMLElement | null = document.querySelector("body");
+    const body: HTMLElement | null = document.getElementById("root");
     body?.appendChild(this.layout);
+  }
+
+  addClass(classesEl: string[]): void {
+    classesEl.forEach((classEl: string) => {
+      this.layout.classList.add(classEl);
+    });
   }
 }
 
