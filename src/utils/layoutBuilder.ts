@@ -4,16 +4,13 @@ class LayoutBuilder {
     this.layout = document.createElement("div");
   }
 
-  addClassToLayout(arg: string): void {
-    this.layout.classList.add(arg);
-  }
-
   renderContent(element: HTMLUListElement): void {
     this.layout.appendChild(element);
   }
 
-  renderLayout(): void {
+  renderLayout(id: string): void {
     const body: HTMLElement | null = document.getElementById("root");
+    this.layout.setAttribute("id", id);
     body?.appendChild(this.layout);
   }
 
